@@ -1,0 +1,19 @@
+<div className="opinionshow">
+                   {
+                    data.map(p => {
+
+                        return (
+
+                            <div style={pokemonStyle} key={p.name}>
+
+                                <h4>{p.name}</h4>
+                                <a href={p.url}>{p.url}</a>
+
+                            </div>
+                        
+                        )
+                    })
+                }
+            </div>
+            
+            echo "<META HTTP-EQUIV=Refresh CONTENT='0; URL=kosar.php' />";

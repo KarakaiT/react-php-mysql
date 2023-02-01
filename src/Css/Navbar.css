@@ -1,0 +1,43 @@
+.navbar{
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0 80px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-left{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-left img{
+
+    height: 70%;
+    background: transparent;
+}
+
+.navbar-right a{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}

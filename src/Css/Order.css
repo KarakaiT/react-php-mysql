@@ -1,0 +1,111 @@
+.order{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+
+/*form{
+
+    height: 500px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+form label{
+
+    margin: 8px 0; 
+}
+
+button{
+
+    padding: 12px 35px;
+    margin-top: 30px;
+    background-color: rgb(12, 148, 12);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+h2{
+
+    font-size: 40px;
+}*/
+
+.rendel h2{
+
+    font-size: 50px;
+    font-weight: 500;
+
+}
+
+.rendel form{
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    text-align: center;
+}
+
+.rendel form input{
+
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border-bottom: 1px solid #121619;
+    color: #121619;
+}
+
+.rendel form textarea{
+
+    margin-top: 15px;
+    height: 100px;
+    width: 100%;
+    border: 1px solid #121619;
+    border-radius: 10px;
+    color: #121619;
+    resize: none;
+}
+
+/*.rendel form input::placeholder,
+.rendel form textarea::placeholder{
+
+    font-weight: bold;
+    color: #121619;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+.rendel form input:focus,
+.rendel form textarea:focus{
+
+    outline: none;
+}
+
+.rendel form label{
+
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+}
+
+
+.rendel button{
+
+    padding: 12px 35px;
+    margin-top: 25px;
+    background-color: rgb(12, 148, 12);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
